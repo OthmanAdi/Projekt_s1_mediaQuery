@@ -1,0 +1,94 @@
+
+/* RESPONSIVE
+================================================== */
+
+
+@media only screen and (max-width: 1700px) {
+  .display-1700-none {display: none!important;}
+  .display-1700 {display: block!important;}
+
+
+
+}
+@media only screen and (max-width: 1200px) {
+  .display-1200-none {display: none!important;}
+  .display-1200 {display: block!important;}
+  /*#sticky-nav {background: #fff;}*/
+  /*#sticky-nav {position: fixed;top: 0;}*/
+  .navbar {margin: 0px 0 0;}
+  .navbar-nav > li > a {
+    padding: 0 10px; font-size: 10px;
+  }
+  .tp-loop-wrap {margin: 0px 0% 0 0%;}
+
+
+}
+@media only screen and (max-width: 991px) {
+  body {background-attachment: scroll !important;}
+  .display-991-none {display: none!important;}
+  .display-991 {display: block!important;}
+  .navbar-nav > li > a {padding: 20px;}   /*!!!!!!!*/
+  .offset-top .container {margin-top: -170px;}
+  .page-title {margin-top: 50px;}
+
+  .four-steps {width: 50%;margin: 0 0% 0 0%;}
+  .three-steps {width: 94%;margin: 0 3% 0 3%;}
+  .fl_right-left {float: left !important;}
+  .row.team-couch {width: 100%;}
+  .row.team-description {width: 100%;}
+  .cont {height: 170vh !important;}
+  .el__heading {
+    min-width: 100px;
+    transform: rotate(-4deg) !important;
+    -moz-transform: rotate(-4deg) !important;
+    -ms-transform: rotate(-4deg) !important;
+    -o-transform: rotate(-4deg) !important;
+    -webkit-transform: rotate(-90deg) !important;
+  }
+  .text-inner-head {
+    font-size: 18px !important;
+    line-height: 24px !important;
+  }
+  .text-inner-text {
+      font-size: 16px !important;
+      margin-top: 0px !important;
+      margin-bottom: 0px !important;
+  }
+
+
+}
+@media only screen and (max-width: 767px) {
+  .display-767-none {display: none!important;}
+  .display-767 {display: block!important;}
+
+
+
+}
+@media only screen and (max-width: 600px) {
+  .display-600-none {display: none!important;}
+  .display-600 {display: block!important;}
+  .four-steps {width: 94%;margin: 0 3% 0 3%;  }
+
+}
+@media only screen and (max-width: 500px) {
+  .display-500-none {display: none!important;}
+  .display-500 {display: block!important;}
+
+}
+@media only screen and (max-width: 440px) {
+  .display-440-none {display: none!important;}
+  .display-440 {display: block!important;}
+  .font-x0{font-size:3rem !important;}
+  .font-x1{font-size:2.8rem !important;}
+  .font-x2{font-size:2rem !important;}
+  .font-x3{font-size:1.6rem !important;}
+  .font-x4{font-size:1.2rem !important;}
+  .font-x5{font-size:1.2rem !important;}
+  .font-x6{font-size:1rem !important;}
+
+
+
+
+
+  
+}
